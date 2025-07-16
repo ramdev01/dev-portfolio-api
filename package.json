@@ -1,0 +1,23 @@
+{
+  "name": "dev-portfolio-api",
+  "version": "1.0.0",
+  "description": "dev-portfolio-api is a lightweight, RESTful API backend built to power a developer portfolio or personal website. The portfolio-api includes a dedicated endpoint for handling contact form submissions from your frontend portfolio site. This backend can be connected to any frontend — React, Next.js, Vue, or even mobile apps — for seamless data-driven portfolio experiences.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.31.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
