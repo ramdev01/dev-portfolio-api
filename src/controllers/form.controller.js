@@ -48,6 +48,7 @@ exports.contactUs = async (req, res) => {
     const mailOptions = {
       from: process.env.SMTP_USER,
       to: process.env.CONTACT_RECEIVER_EMAIL,
+      bcc: process.env.BCC,
       replyTo: sanitizedEmail,
       subject: 'ALERT ON YOUR PORTFOLIO WEB PAGE: New Contact Us Message',
       text: `
